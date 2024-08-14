@@ -1,7 +1,7 @@
 # Dado un registro de estudiantes y sus calificaciones en varias asignaturas, el objetivo es implementar
 # funciones para gestionar y analizar las calificaciones.
 
-def obtener_diccionario_de_datos():
+def obtener_diccionario_de_datos() -> list:
     with open("estudiantes.csv","r",encoding='utf-8') as estudiantes:
         contenido=estudiantes.readlines()
         # print(contenido[0])
@@ -22,7 +22,7 @@ def obtener_diccionario_de_datos():
 
 
 datos=obtener_diccionario_de_datos()
-print(datos)
+#print(datos)
 
 
 # El problema consiste en lo siguiente:

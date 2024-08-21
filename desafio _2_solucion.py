@@ -135,9 +135,11 @@ def principal() -> None:
                     print(f"{i}. {c}")
 
                 asignatura=input('Asignatura: ')
-                promedio_estudiante(datos,asignatura)
+                promedio_asignatura(datos,asignatura)
             elif r=='0':
                 print('Hasta pronto!')
                 break
 
-principal()
+# principal()
+
+print(list(datos[0].keys()))
